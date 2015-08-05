@@ -1,0 +1,18 @@
+te a class, you will specify the code and data that constitute that class.
+Collectively, these elements are called members of the class. Specifically, the data defined by
+the class are referred to as member variables or instance variables. The code that operates on
+that data is referred to as member methods or just methods. (If you are familiar with C/C++, it
+may help to know that what a Java programmer calls a method, a C/C++ programmer calls a
+function.) In properly written Java programs, the methods define how the member variables
+can be used. This means that the behavior and interface of a class are defined by the methods
+that operate on its instance data.
+Since the purpose of a class is to encapsulate complexity, there are mechanisms for
+hiding the complexity of the implementation inside the class. Each method or variable in a
+class may be marked private or public. The public interface of a class represents everything
+that external users of the class need to know, or may know. The private methods and data
+can only be accessed by code that is a member of the class. Therefore, any other code that
+is not a member of the class cannot access a private method or variable. Since the private
+members of a class may only be accessed by other parts of your program through the class’
+public methods, you can ensure that no improper actions take place. Of course, this means
+that the public interface should be carefully designed not to expose too much of the inner
+workings of a class (see Figure 2-1).

@@ -1,0 +1,7 @@
+ons are evaluated from the top downward. As soon as a true condition is found, the
+statement associated with it is executed and the rest of the ladder is bypassed. If none of the
+conditions are true, the final else is executed. That is, if all other conditional tests fail, the last else
+statement is performed. If the final else is not present, no action takes place if all other conditions
+are false.
+Although the indentation of the preceding if-else-if ladder is technically correct, it can lead to overly
+deep indentation. For this reason, the if-else-if ladder is usually indented like this:

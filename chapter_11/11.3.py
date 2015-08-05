@@ -10,7 +10,7 @@ def histogram(word):
 	    d[i] += 1
     return d
 def print_hist(h):
-    x="".join(sorted(h))
+    x=sorted(h)
     for i in x:
 	print i,h[i]
 print_hist(histogram('abrakadabra'))
